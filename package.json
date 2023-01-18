@@ -2,9 +2,9 @@
   "name": "repos",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devstart": "nodemon my_file.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,8 @@
     "mongoose": "^6.8.4",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
